@@ -1,1 +1,15 @@
-/* Put your CSS Styling here! */
+.title {
+	font-family: 'Comfortaa';
+	font-size: 50px;
+	text-align: center;
+}
+.title2 {
+	font-family: 'Comfortaa';
+	font-size: 30px;
+	text-align: center;
+}
+.title3 {
+	font-family: 'Comfortaa';
+	font-size: 25px;
+	text-align: center;
+}

@@ -3,7 +3,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_page():
-    return None
+    return render_template("home.html")
+
+@app.route('/shop')
+
+def shop_page():
+	products=["Dresses", "Suits", "Boots", "Hills", "Hats", "Rings", "Necklaces", "Bracelets"]
+	return render_template("shop.html", product=products)
 
 if __name__ == '__main__':
    app.run(debug = True)
